@@ -1,0 +1,323 @@
+.container
+{
+    width:960px;
+    margin: auto;
+    background-color:#e6e6e6;
+    display:flex;
+    flex-direction:column;
+}
+
+/* Header section starts */
+#header
+{
+    display:flex;
+    flex-direction:row;
+    position:fixed;
+    width:inherit;
+    top:0;
+    border-bottom:1px solid teal;
+}
+
+#logo
+{
+    background-color:white;
+    flex:1;
+    border:1px solid #D3FAD6;
+    border-bottom:none;
+}
+
+#logotext
+{
+    background: url(../img/logo.png) no-repeat;
+    height:88px;
+    text-indent: -9999px;
+}
+
+#nav
+{
+    background-color:white;
+    flex:7;
+    align-self: stretch;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+#nav li
+{
+    display:inline;
+    padding-right:25px;
+}
+
+#nav li a
+{
+    text-decoration: none;
+    color: cadetblue;
+    font-weight: bold;
+    text-shadow: 1px -1px 3px #000000;
+}
+
+#nav li a:hover
+{
+    color:darkcyan;
+    font-size: 15px;
+}
+
+/* Header section ends */
+
+
+#content
+{
+    margin-top:91px;
+}
+
+/* Hero section starts */
+#section-hero
+{
+    background-color:#bfbfbf;
+}
+
+#section-hero img
+{
+    width: 960px;
+}
+
+#section-purchase
+{
+    display:flex;
+}
+
+/* Hero section ends */
+
+/* Section purchase : col1 starts */
+#purchase-col1
+{
+    background-color:#f5eeee;
+    border:1px solid darkkhaki;
+    flex:6;
+}
+
+.gof-image
+{
+    text-align:center;
+    border-bottom:1px solid lightgreen
+}
+
+.gof-image img
+{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:2px;
+    border:1px solid lightslategray;
+}
+
+.meta
+{
+    padding-left:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.meta li
+{
+    display:inline;
+ 
+}
+
+.gof-description a
+{
+    color: #276056;
+}
+
+.meta li a, .post_info a
+{
+    text-decoration: none;
+}
+
+.meta a, .post_info, .continue
+{
+    font-style:italic;
+    font-size:13px;
+}
+
+.meta li:after
+{
+    content: "\\";
+    padding: 0 5px;
+    color:#999;
+}
+
+.meta li:last-child:after
+{
+    content:none;
+} 
+
+.fit-element
+{
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-left:5px;
+}
+
+.body
+{
+    clear:both;
+    font-size: 13px
+}
+
+.continue
+{
+    font-size:13px;
+    float:right;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+.continue:before
+{
+    content:"(";
+}
+
+.continue:after
+{
+    content:")"
+}
+/* Section purchase : col1 ends */
+
+/* Section purchase : col2 starts */
+#purchase-col2
+{
+    background-color: #f5eeee;
+    border:1px solid darkkhaki;
+    flex:5;
+}
+
+#preview-list
+{
+    display:flex;
+    flex-direction:column;
+}
+
+.pur-sec
+{
+    border-bottom:1px solid black;
+}
+
+#preview-list section:last-child
+{
+    border-bottom:none;
+}
+
+.preview-image
+{
+    /* border:1px solid lightgreen; */
+    width:135px;
+    float:left;
+    margin-left:5px;
+}
+
+.preview-image img
+{
+    width:130px;
+    height:140px;
+    margin-top:8px;
+    margin-bottom:10px;
+    padding:2px;
+    border:1px solid lightslategray;
+}
+
+.preview
+{
+    float:left;
+    width:284px;
+    margin-left:5px;
+}
+
+.preview a
+{
+    color: #276056;
+}
+/* Section purchase : col2 end */
+
+/* Production section starts */
+#section-products
+{
+    /* background-color: #999999; */
+    border:2px solid lightgrey;
+}
+
+.product
+{
+    width: 290px;
+    margin: 3px;
+    border:2px solid white;
+    text-align:center;
+    float:left;
+}
+
+.product img
+{
+    width:280px;
+    height:182px;
+    margin-top:3px;
+    border:2px solid lightgrey;
+}
+
+.productName
+{
+    float:left;
+    margin-left:5px;
+}
+
+.productPrice
+{
+    float:right;
+    margin-right:5px;
+}
+
+.product-meta
+{
+    height:25px;
+}
+
+.product-scroll
+{
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+
+.product-bar
+{
+    width:3000px;
+}
+/* Production section ends */
+
+/* Footer section starts */
+#footer
+{
+    background-color: darkgray;
+}
+
+.social-links li
+{
+    display:inline;
+}
+
+.social-links li a
+{
+    text-decoration: none;
+}
+
+.copyright
+{
+    float:left;
+    color:darkslategray;
+    margin:10px 0px 0px 10px;
+}
+
+.links
+{
+    float:right;
+    margin-right:10px;
+}
+
+/* Footer section ends */
